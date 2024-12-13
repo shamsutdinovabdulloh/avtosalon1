@@ -1,0 +1,25 @@
+// 1 abstrac:variables,mixin
+@import "./abstracts/variables";
+@import "./abstracts/mixin";
+
+// 2 base styles :reset.fonts
+
+@import "./base/reser";
+@import "./base/fonts";
+
+
+
+// 3 component : odatiy qayta ishlatishimiz mumkin bolgan narsalar
+
+@import "./component/container";
+@import "./component/header";
+
+// 4 pages : asosiy sahifalardagi maxsus stillar
+
+@import "./pages/home";
+@import "./pages/category";
+
+body{
+    background-color: red;
+    color: black;
+}
